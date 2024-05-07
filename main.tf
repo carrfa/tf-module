@@ -1,3 +1,4 @@
+# id 22324
 terraform {
   required_providers {
     spacelift = {
@@ -11,9 +12,9 @@ resource "spacelift_stack" "example-stack" {
 
   administrative    = true
   autodeploy        = false
-  branch            = "master"
+  branch            = "main"
   description       = "Shared production infrastructure (networking, k8s)"
-  repository        = "testing-spacelift"
+  repository        = "azure-demo"
   terraform_version = "0.12.27"
 }
 
