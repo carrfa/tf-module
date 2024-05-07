@@ -14,7 +14,7 @@ resource "spacelift_stack" "example-stack" {
   autodeploy        = false
   branch            = "master"
   description       = "Shared production infrastructure (networking, k8s)"
-  repository        = "testing-spacelift"
+  repository        = "azure-demo"
   terraform_version = "0.12.27"
 }
 
